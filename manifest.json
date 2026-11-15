@@ -44,19 +44,6 @@
       "relation": "equals best known incumbent"
     },
     {
-      "id": "G11",
-      "n": 800,
-      "m": 1600,
-      "graph": "instances/G11/graph.edgelist",
-      "graph_sha256": "c2a760d2926db4fefd23b25c098dcd6311f711b355dbd1cc689fa25660c73174",
-      "witness": "witnesses/G11/cut.bin",
-      "witness_sha256": "56de39af8df0a0da63a79368f0d2c5844d9e8b3a6c89430abd03f37449351b9c",
-      "claimed_cut": 1600,
-      "status": "matches_published_bipartite_optimum",
-      "reference_published": 1600,
-      "relation": "G11 is bipartite; cut = m proves global optimality by exhibiting a bipartition"
-    },
-    {
       "id": "G14",
       "n": 800,
       "m": 4694,
@@ -78,9 +65,9 @@
       "witness": "witnesses/G22/cut.bin",
       "witness_sha256": "4464d9f66f3d80f70e430f73e0d7654d36a5dae2d124ae7e571612002f1ffc57",
       "claimed_cut": 13359,
-      "status": "new_claimed_incumbent",
-      "reference_published": 13346,
-      "relation": "+13 vs Helmberg & Rendl (2000)"
+      "status": "matches_published_best_known",
+      "reference_published": 13359,
+      "relation": "equals modern best known incumbent (Benlic & Hao, 2013); +13 over the early Helmberg & Rendl (2000) table of 13346"
     }
   ]
 }
