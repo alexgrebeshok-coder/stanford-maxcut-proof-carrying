@@ -38,10 +38,9 @@ witness achieves a value equal to the best published incumbent, the correct stat
 
 The cohort is restricted to **unweighted** G-set instances. The G22 witness achieves a cut
 of 13359, which matches the established modern best known solution (BKS) of the literature
-(e.g. Benlic & Hao, 2013; exceeding the early Helmberg & Rendl 2000 table of 13346 by +13
-edges). As for every other instance in this release, the witness is certified feasible by
-the verifier shipped here (a genuine cut of the stated value), while its optimality remains
-open until an upper bound meets it.
+(e.g. Benlic & Hao, 2013). As for every other instance in this release, the witness is
+certified feasible by the verifier shipped here (a genuine cut of the stated value), while
+its optimality remains open until an upper bound meets it.
 
 ## Repository layout
 
@@ -92,7 +91,7 @@ requires every synthetic attack to be rejected), making it directly usable in CI
 ## Data provenance
 
 Graph files are the standard G-set instances distributed by the research community
-(originating with the Stanford repository; see Ye (2003) below) in the DIMACS-style
+(originating with the Stanford repository; see Ye (2001) below) in the DIMACS-style
 edgelist encoding: header `n m` followed by `u v w` triples. Witness vectors were produced
 by the author's optimization stack; their provenance is irrelevant to their validity, which
 rests entirely on the recomputation performed by `verify_maxcut.py`.
@@ -102,12 +101,10 @@ rests entirely on the recomputation performed by `verify_maxcut.py`.
 - U. Benlic, J.-K. Hao. *Breakout local search for the Max-Cut problem.* Engineering
   Applications of Artificial Intelligence 26(3):1162–1173, 2013. (Modern best-known values
   for the G-set, incl. 13359 for G22.)
-- C. Helmberg, F. Rendl. *A spectral bundle method for semidefinite programming.*
-  SIAM Journal on Optimization 10(3):673–696, 2000. (Early best-known-value table.)
 - M. X. Goemans, D. P. Williamson. *Improved approximation algorithms for maximum cut and
   satisfiability problems using semidefinite programming.* Journal of the ACM 42(6):1115–1145, 1995.
-- Y. Ye. *A .6993 approximation algorithm for Max-Bisection.* Mathematical Programming
-  97:95–109, 2003. (G-set instances and best-known-value tables:
+- Y. Ye. *A .699-approximation algorithm for Max-Bisection.* Mathematical Programming
+  90(1):101–111, 2001. (Author's archive hosting the G-set benchmark suite:
   https://web.stanford.edu/~yyye/yyye/Gset/)
 - Stanford G-set repository: https://web.stanford.edu/~yyye/yyye/Gset/
 - For annealing-based Max-Cut studies on the G-set, see e.g. the benchmark tables maintained

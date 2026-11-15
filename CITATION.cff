@@ -13,8 +13,8 @@ abstract: >-
   its graph, a binary witness partition vector, SHA-256 checksums, and an autonomous
   pure-Python verifier that recomputes the cut value from the graph alone. For G22 the
   witness of value 13359 matches the established modern best known solution of the
-  literature (e.g. Benlic & Hao, 2013; +13 over the early Helmberg & Rendl 2000 table
-  of 13346). The release certifies feasible lower bounds, not global optimality.
+  literature (e.g. Benlic & Hao, 2013). The release certifies feasible lower bounds,
+  not global optimality.
 keywords:
   - max-cut
   - combinatorial optimization
