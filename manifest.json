@@ -1,0 +1,86 @@
+{
+  "schema": "pc-maxcut-manifest-v1",
+  "description": "Proof-Carrying Incumbent Release: certified feasible Max-Cut solutions for Stanford G-set benchmark graphs. Each witness is a binary partition vector (one byte per vertex, 0x00 or 0x01) whose cut value is independently recomputable from the graph file alone.",
+  "generator": "Aleksandr Grebeshok",
+  "license": "MIT",
+  "instances": [
+    {
+      "id": "G1",
+      "n": 800,
+      "m": 19176,
+      "graph": "instances/G1/graph.edgelist",
+      "graph_sha256": "73bf704d8ffc55ba42260ab4cb659e3dcb6e729be70404d2cf476ba4e46d1665",
+      "witness": "witnesses/G1/cut.bin",
+      "witness_sha256": "b83096c93867e1f67155a08ee6af20aaa0616785d538834025b5d7c8271c220a",
+      "claimed_cut": 11624,
+      "status": "matches_published_best_known",
+      "reference_published": 11624,
+      "relation": "equals best known incumbent"
+    },
+    {
+      "id": "G2",
+      "n": 800,
+      "m": 19176,
+      "graph": "instances/G2/graph.edgelist",
+      "graph_sha256": "732d57480a0151e81253a08535da539ff579f77dbc8673d2b58f4b051f6ccdac",
+      "witness": "witnesses/G2/cut.bin",
+      "witness_sha256": "efe6b72cb9ab248f414a61a81164a32c03671328cbcd68f0370691b33a691f94",
+      "claimed_cut": 11620,
+      "status": "matches_published_best_known",
+      "reference_published": 11620,
+      "relation": "equals best known incumbent"
+    },
+    {
+      "id": "G3",
+      "n": 800,
+      "m": 19176,
+      "graph": "instances/G3/graph.edgelist",
+      "graph_sha256": "999e49b5e093408bbb9e9d8aa76a4d05d61b7f8d4704cb1e35b596a6f1ad2897",
+      "witness": "witnesses/G3/cut.bin",
+      "witness_sha256": "591a799cb14bfa7b23897095e42ffb7187422d06872865bb002ebe93d4418e2b",
+      "claimed_cut": 11622,
+      "status": "matches_published_best_known",
+      "reference_published": 11622,
+      "relation": "equals best known incumbent"
+    },
+    {
+      "id": "G11",
+      "n": 800,
+      "m": 1600,
+      "graph": "instances/G11/graph.edgelist",
+      "graph_sha256": "c2a760d2926db4fefd23b25c098dcd6311f711b355dbd1cc689fa25660c73174",
+      "witness": "witnesses/G11/cut.bin",
+      "witness_sha256": "56de39af8df0a0da63a79368f0d2c5844d9e8b3a6c89430abd03f37449351b9c",
+      "claimed_cut": 1600,
+      "status": "matches_published_bipartite_optimum",
+      "reference_published": 1600,
+      "relation": "G11 is bipartite; cut = m proves global optimality by exhibiting a bipartition"
+    },
+    {
+      "id": "G14",
+      "n": 800,
+      "m": 4694,
+      "graph": "instances/G14/graph.edgelist",
+      "graph_sha256": "dc769b978a40d458f693d5bd2cf8b8cceabd430b8e976204746696179c3d5945",
+      "witness": "witnesses/G14/cut.bin",
+      "witness_sha256": "46dd077f33ab47da562f9a8b95976c03511a9fc2f0d92e645333b1999230a3b8",
+      "claimed_cut": 3064,
+      "status": "matches_published_best_known",
+      "reference_published": 3064,
+      "relation": "equals best known incumbent"
+    },
+    {
+      "id": "G22",
+      "n": 2000,
+      "m": 19990,
+      "graph": "instances/G22/graph.edgelist",
+      "graph_sha256": "9baeee06eb147b1c9ca42b43be86592d4e6fc60784a85af9be5b63d1362ef28e",
+      "witness": "witnesses/G22/cut.bin",
+      "witness_sha256": "4464d9f66f3d80f70e430f73e0d7654d36a5dae2d124ae7e571612002f1ffc57",
+      "claimed_cut": 13359,
+      "status": "new_claimed_incumbent",
+      "reference_published": 13346,
+      "relation": "+13 vs Helmberg & Rendl (2000)"
+    }
+  ]
+}

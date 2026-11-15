@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these certified Max-Cut incumbents or witnesses, please cite this repository."
+title: "Stanford G-set Max-Cut: Proof-Carrying Incumbent Release"
+authors:
+  - family-names: Grebeshok
+    given-names: Aleksandr
+version: 1.0.0
+date-released: "2026-11-15"
+license: MIT
+abstract: >-
+  Certified feasible Max-Cut solutions (proof-carrying incumbents) for six canonical
+  Stanford G-set instances (G1, G2, G3, G11, G14, G22). Each instance ships with its
+  graph, a binary witness partition vector, SHA-256 checksums, and an autonomous
+  pure-Python verifier that recomputes the cut value from the graph alone. Includes
+  a new claimed incumbent for G22 (cut 13359, +13 over the published 13346 of
+  Helmberg & Rendl, 2000). The release certifies feasible lower bounds, not global
+  optimality, except for G11 where a bipartite cut of value m proves optimality.
+keywords:
+  - max-cut
+  - combinatorial optimization
+  - benchmark
+  - Stanford G-set
+  - proof-carrying data
+  - certified solutions
+type: dataset

@@ -1,0 +1,14 @@
+{
+  "schema": "pc-maxcut-certificate-v1",
+  "id": "G1",
+  "n": 800,
+  "m": 19176,
+  "graph": "../../instances/G1/graph.edgelist",
+  "graph_sha256": "73bf704d8ffc55ba42260ab4cb659e3dcb6e729be70404d2cf476ba4e46d1665",
+  "witness": "cut.bin",
+  "witness_sha256": "b83096c93867e1f67155a08ee6af20aaa0616785d538834025b5d7c8271c220a",
+  "claimed_cut": 11624,
+  "status": "matches_published_best_known",
+  "reference_published": 11624,
+  "relation": "equals best known incumbent"
+}
